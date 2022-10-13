@@ -1,0 +1,18 @@
+#Created by:Daniel Jeffrey 
+#Created on: Oct 12, 2022
+#This program calculates a quotient using loops and subraction, without division for positive numbers.
+
+x = int(input('Input your dividend:'))
+y = int(input('Input your divisor:'))
+
+temp = x
+quotient = 0
+
+while temp >= y:
+   quotient = quotient + 1
+   temp = temp - y
+
+remainder = temp
+
+print('The quotient is:', quotient)
+print('The remainder is:', remainder)
